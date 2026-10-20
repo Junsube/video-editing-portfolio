@@ -8,14 +8,6 @@
     "thumbnail": "https://i.ytimg.com/vi/25SVSN3lbOc/hqdefault.jpg"
   },
   {
-    "id": "aKbbD1SN5tQ",
-    "category": "게임",
-    "url": "https://www.youtube.com/watch?v=aKbbD1SN5tQ",
-    "title": "배그 최초의 하이퍼카 결국 이 색으로 골랐습니다🔥부가티 리뷰🔥",
-    "author": "도현",
-    "thumbnail": "https://i.ytimg.com/vi/aKbbD1SN5tQ/hqdefault.jpg"
-  },
-  {
     "id": "7gRyEg3PoCA",
     "category": "게임",
     "url": "https://www.youtube.com/watch?v=7gRyEg3PoCA",
@@ -110,5 +102,13 @@
     "title": "남성확대 끝판왕 5S복합수술, 실제로 뭐가 다른지 공개합니다",
     "author": "하이스트 비뇨의학과 l 구 프라우드",
     "thumbnail": "https://i.ytimg.com/vi/qrqYpp3a9EA/hqdefault.jpg"
+  },
+  {
+    "id": "6D49JhEjStw",
+    "category": "다큐",
+    "url": "https://www.youtube.com/watch?v=6D49JhEjStw",
+    "title": "라스트 서클 Phase 1: DN FREECS | [PUBG: 배틀그라운드]",
+    "author": "배틀그라운드 이스포츠",
+    "thumbnail": "https://i.ytimg.com/vi/6D49JhEjStw/hqdefault.jpg"
   }
 ]
