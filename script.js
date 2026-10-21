@@ -28,6 +28,7 @@ for (const link of document.querySelectorAll('[data-video]')) {
     event.preventDefault();
     document.querySelector('#video-title').textContent = link.dataset.title;
     document.querySelector('#youtube-link').href = link.href;
+    dialog.classList.toggle('shorts-dialog', link.closest('.project').dataset.category === '쇼츠');
     const iframe = document.createElement('iframe');
     iframe.src = `https://www.youtube-nocookie.com/embed/${link.dataset.video}?autoplay=1&rel=0`;
     iframe.title = link.dataset.title;

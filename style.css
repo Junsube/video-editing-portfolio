@@ -32,6 +32,9 @@ h1{font-size:40px;line-height:1.4;letter-spacing:-1.5px;margin:0;font-weight:700
 .project-link{display:block;height:100%}
 .thumbnail{position:relative;aspect-ratio:16/9;overflow:hidden;background:#dfdfd8;border-radius:2px}
 .thumbnail img{display:block;width:100%;height:100%;object-fit:cover}
+.project[data-category="쇼츠"] .thumbnail{aspect-ratio:9/16}
+.project[data-category="쇼츠"]{grid-column-start:1}
+.project[data-category="쇼츠"] + .project[data-category="쇼츠"]{grid-column-start:auto}
 .project[data-category="병원"] .thumbnail img{filter:blur(12px);transition:filter .15s}
 .project[data-category="병원"] .project-link:focus-visible .thumbnail img{filter:blur(0)}
 @media(hover:hover) and (pointer:fine){.project[data-category="병원"] .project-link:hover .thumbnail img{filter:blur(0)}}
@@ -52,6 +55,8 @@ dialog::backdrop{background:#151713da}
 .close-button span{font-size:23px;margin-left:10px;vertical-align:-2px}
 .player{aspect-ratio:16/9;background:#000}
 .player iframe{display:block;width:100%;height:100%;border:0}
+.shorts-dialog{width:min(420px,calc(100% - 24px),calc((100dvh - 190px)*.5625))}
+.shorts-dialog .player{aspect-ratio:9/16}
 .dialog-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 22px;font-size:12px;line-height:1.7}
 .dialog-footer p{color:var(--muted);margin:0}
 .dialog-footer a{flex-shrink:0;text-decoration:underline;text-underline-offset:4px}
